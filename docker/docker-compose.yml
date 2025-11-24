@@ -1,0 +1,40 @@
+services:
+
+  postgres:
+    image: postgres:15
+    container_name: siae_postgres
+    restart: always
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: siae_docs
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: kaz2y5*
+    volumes:
+      - siae_postgres_data:/var/lib/postgresql/data
+    networks:
+      - siae_network
+
+  minio:
+    image: minio/minio
+    container_name: siae_minio
+    restart: always
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: 12345678
+    command: server /data --console-address ":9001"
+    volumes:
+      - siae_minio_data:/data
+    networks:
+      - siae_network
+
+volumes:
+  siae_postgres_data:
+  siae_minio_data:
+
+networks:
+  siae_network:
+    driver: bridge
