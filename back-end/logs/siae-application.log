@@ -1,0 +1,4097 @@
+2025-12-01 23:42:42.446 [main] INFO  b.c.m.siae.api.SiaeApplication - Starting SiaeApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 25884 (C:\Users\Matheus\Documents\Sistemas de Informação_Unipar\siae.dev\back-end\target\api-0.0.1-SNAPSHOT.jar started by Matheus in C:\Users\Matheus\Documents\Sistemas de Informação_Unipar\siae.dev\back-end\target)
+2025-12-01 23:42:42.449 [main] INFO  b.c.m.siae.api.SiaeApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-01 23:42:43.135 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-01 23:42:43.195 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2025-12-01 23:42:43.717 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-01 23:42:43.733 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-01 23:42:43.734 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-01 23:42:43.766 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-01 23:42:43.766 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1276 ms
+2025-12-01 23:42:43.924 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-01 23:42:43.981 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-12-01 23:42:44.010 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-01 23:42:44.098 [main] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2025-12-01 23:42:44.320 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-01 23:42:44.357 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-01 23:42:44.572 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ee6dc82
+2025-12-01 23:42:44.573 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-01 23:42:44.608 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-01 23:42:44.836 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.DocsAnexados
+2025-12-01 23:42:44.838 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.ProcessoDigital.ProcessoDigital
+2025-12-01 23:42:45.391 [main] ERROR o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2025-12-01 23:42:45.398 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-01 23:42:45.621 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01 23:42:46.164 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-01 23:42:46.190 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-12-01 23:42:46.550 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-01 23:42:46.559 [main] INFO  b.c.m.siae.api.SiaeApplication - Started SiaeApplication in 4.551 seconds (process running for 5.031)
+2025-12-01 23:42:53.390 [main] INFO  b.c.m.siae.api.SiaeApplication - Starting SiaeApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 18168 (C:\Users\Matheus\Documents\Sistemas de Informação_Unipar\siae.dev\back-end\target\api-0.0.1-SNAPSHOT.jar started by Matheus in C:\Users\Matheus\Documents\Sistemas de Informação_Unipar\siae.dev\back-end\target)
+2025-12-01 23:42:53.392 [main] INFO  b.c.m.siae.api.SiaeApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-01 23:42:54.335 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-01 23:42:54.415 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
+2025-12-01 23:42:55.132 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-01 23:42:55.150 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-01 23:42:55.150 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-01 23:42:55.185 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-01 23:42:55.186 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1720 ms
+2025-12-01 23:42:55.389 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-01 23:42:55.465 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-12-01 23:42:55.508 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-01 23:42:55.600 [main] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2025-12-01 23:42:55.844 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-01 23:42:55.887 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-01 23:42:56.139 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1322b575
+2025-12-01 23:42:56.141 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-01 23:42:56.187 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-01 23:42:56.465 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.DocsAnexados
+2025-12-01 23:42:56.467 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.ProcessoDigital.ProcessoDigital
+2025-12-01 23:42:57.125 [main] ERROR o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2025-12-01 23:42:57.133 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-01 23:42:57.370 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01 23:42:58.000 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-01 23:42:58.026 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-12-01 23:42:58.387 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-12-01 23:42:58.388 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01 23:42:58.390 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-01 23:42:58.394 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-01 23:42:58.409 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-01 23:42:58.431 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-12-04 20:00:08.623 [main] INFO  b.c.m.siae.api.SiaeApplication - Starting SiaeApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 30596 (C:\Users\Matheus\Documents\Sistemas de Informação_Unipar\siae.dev\back-end\target\api-0.0.1-SNAPSHOT.jar started by Matheus in C:\Users\Matheus\Documents\Sistemas de Informação_Unipar\siae.dev\back-end\target)
+2025-12-04 20:00:08.628 [main] INFO  b.c.m.siae.api.SiaeApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-04 20:00:09.481 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-04 20:00:09.548 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2025-12-04 20:00:10.243 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-04 20:00:10.258 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-04 20:00:10.258 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-04 20:00:10.292 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-04 20:00:10.293 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1610 ms
+2025-12-04 20:00:10.485 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-04 20:00:10.578 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-12-04 20:00:10.620 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-04 20:00:10.713 [main] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2025-12-04 20:00:10.999 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-04 20:00:11.051 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-04 20:00:12.135 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08001
+2025-12-04 20:00:12.136 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2025-12-04 20:00:12.137 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at br.com.mgctecnologia.siae.api.SiaeApplication.main(SiaeApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64)
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40)
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:352)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	... 40 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:260)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:121)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:140)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268)
+	... 54 common frames omitted
+2025-12-04 20:00:12.169 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-04 20:00:12.402 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.DocsAnexados
+2025-12-04 20:00:12.404 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.ProcessoDigital.ProcessoDigital
+2025-12-04 20:00:13.033 [main] ERROR o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2025-12-04 20:00:13.039 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-04 20:00:13.058 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-04 20:00:14.096 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08001
+2025-12-04 20:00:14.097 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2025-12-04 20:00:14.105 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+2025-12-04 20:00:14.106 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+2025-12-04 20:00:14.109 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-12-04 20:00:14.121 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-04 20:00:14.140 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at br.com.mgctecnologia.siae.api.SiaeApplication.main(SiaeApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:102)
+	at org.springframework.boot.loader.launch.Launcher.launch(Launcher.java:64)
+	at org.springframework.boot.loader.launch.JarLauncher.main(JarLauncher.java:40)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 20 common frames omitted
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63)
+	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43)
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60)
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:100)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 24 common frames omitted
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:352)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46)
+	... 44 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:260)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:121)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:140)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268)
+	... 58 common frames omitted
+2025-12-04 20:00:52.835 [main] INFO  b.c.m.siae.api.SiaeApplication - Starting SiaeApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 10368 (C:\Users\Matheus\Documents\Sistemas de Informação_Unipar\siae.dev\back-end\target\api-0.0.1-SNAPSHOT.jar started by Matheus in C:\Users\Matheus\Documents\Sistemas de Informação_Unipar\siae.dev\back-end\target)
+2025-12-04 20:00:52.838 [main] INFO  b.c.m.siae.api.SiaeApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-04 20:00:53.781 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-04 20:00:53.878 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interface.
+2025-12-04 20:00:54.996 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-04 20:00:55.051 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-04 20:00:55.051 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-04 20:00:55.131 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-04 20:00:55.132 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2216 ms
+2025-12-04 20:00:55.433 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-04 20:00:55.548 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-12-04 20:00:55.592 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-04 20:00:55.732 [main] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2025-12-04 20:00:56.196 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-04 20:00:56.295 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-04 20:00:56.724 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@39c7fb0b
+2025-12-04 20:00:56.726 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-04 20:00:56.789 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-04 20:00:57.268 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.DocsAnexados
+2025-12-04 20:00:57.276 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.ProcessoDigital.ProcessoDigital
+2025-12-04 20:00:58.318 [main] ERROR o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2025-12-04 20:00:58.331 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-04 20:00:58.687 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-04 20:00:59.904 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-04 20:00:59.970 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-12-04 20:01:00.568 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-04 20:01:00.584 [main] INFO  b.c.m.siae.api.SiaeApplication - Started SiaeApplication in 8.301 seconds (process running for 8.817)
+2025-12-04 20:01:09.565 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-04 20:01:09.565 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-04 20:01:09.567 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-12-04 20:01:13.485 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.nome_beneficiado,
+        pd1_0.observacao_cancelamento,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 20:01:13.530 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:01:13.812 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:01:13.828 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:01:13.836 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:01:13.848 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:01:13.852 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:01:45.051 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.nome_beneficiado,
+        pd1_0.observacao_cancelamento,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0 
+    where
+        pd1_0.id_processo=?
+2025-12-04 20:01:45.063 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:01:49.384 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.nome_beneficiado,
+        pd1_0.observacao_cancelamento,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 20:01:49.390 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:01:49.397 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:01:49.414 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:01:49.423 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:01:49.438 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:01:49.443 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:04:46.353 [main] INFO  b.c.m.siae.api.SiaeApplication - Starting SiaeApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 3116 (C:\Users\Matheus\Documents\Sistemas de Informação_Unipar\siae.dev\back-end\target\SIAE.v001.jar started by Matheus in C:\Users\Matheus\Documents\Sistemas de Informação_Unipar\siae.dev\back-end\target)
+2025-12-04 20:04:46.358 [main] INFO  b.c.m.siae.api.SiaeApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-04 20:04:47.513 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-04 20:04:47.628 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interface.
+2025-12-04 20:04:48.252 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-04 20:04:48.265 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-04 20:04:48.265 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-04 20:04:48.293 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-04 20:04:48.293 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1854 ms
+2025-12-04 20:04:48.491 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-04 20:04:48.559 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-12-04 20:04:48.595 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-04 20:04:48.672 [main] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2025-12-04 20:04:48.908 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-04 20:04:48.943 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-04 20:04:49.157 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@c732e1c
+2025-12-04 20:04:49.159 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-04 20:04:49.188 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-04 20:04:49.446 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.DocsAnexados
+2025-12-04 20:04:49.448 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.ProcessoDigital.ProcessoDigital
+2025-12-04 20:04:50.051 [main] ERROR o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2025-12-04 20:04:50.060 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-04 20:04:50.279 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-04 20:04:50.870 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-04 20:04:50.896 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-12-04 20:04:51.287 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-04 20:04:51.296 [main] INFO  b.c.m.siae.api.SiaeApplication - Started SiaeApplication in 5.583 seconds (process running for 6.096)
+2025-12-04 20:04:55.092 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-04 20:04:55.093 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-04 20:04:55.096 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-12-04 20:05:00.192 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.nome_beneficiado,
+        pd1_0.observacao_cancelamento,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 20:05:00.231 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:05:00.459 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:05:00.470 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:05:00.477 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:05:00.490 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:05:00.494 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 20:05:08.869 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-04 20:05:08.870 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-04 20:05:08.873 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-12-04 22:56:03.174 [main] INFO  b.c.m.siae.api.SiaeApplication - Starting SiaeApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 7740 (C:\Users\Matheus\Documents\Sistemas de Informação_Unipar\siae.dev\back-end\target\api-0.0.1-SNAPSHOT.jar started by Matheus in C:\Users\Matheus\Documents\Sistemas de Informação_Unipar\siae.dev\back-end\target)
+2025-12-04 22:56:03.177 [main] INFO  b.c.m.siae.api.SiaeApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-04 22:56:03.878 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-04 22:56:03.939 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2025-12-04 22:56:04.510 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-04 22:56:04.526 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-04 22:56:04.526 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-12-04 22:56:04.554 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-04 22:56:04.554 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1330 ms
+2025-12-04 22:56:04.735 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-04 22:56:04.814 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2025-12-04 22:56:04.856 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-12-04 22:56:04.925 [main] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2025-12-04 22:56:05.140 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-04 22:56:05.174 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-12-04 22:56:05.404 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c5f0edc
+2025-12-04 22:56:05.406 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-12-04 22:56:05.439 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-04 22:56:05.698 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.DocsAnexados
+2025-12-04 22:56:05.703 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.ProcessoDigital.ProcessoDigital
+2025-12-04 22:56:05.705 [main] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: br.com.mgctecnologia.siae.api.model.ServidorPublico
+2025-12-04 22:56:06.304 [main] ERROR o.h.m.internal.MetadataContext - HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2025-12-04 22:56:06.311 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-04 22:56:06.594 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-04 22:56:06.956 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-04 22:56:07.400 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-04 22:56:07.432 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2025-12-04 22:56:07.842 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-12-04 22:56:07.860 [main] INFO  b.c.m.siae.api.SiaeApplication - Started SiaeApplication in 5.117 seconds (process running for 5.6)
+2025-12-04 22:56:12.751 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-04 22:56:12.751 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-12-04 22:56:12.753 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-12-04 22:56:13.328 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:56:13.379 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:13.394 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:13.487 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:13.513 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:13.519 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:13.533 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:13.537 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:13.549 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:13.564 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:15.988 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:56:15.999 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:16.005 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:16.019 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:16.033 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:16.037 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:16.044 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:16.048 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:16.056 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:16.065 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:20.649 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:56:20.660 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:20.666 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:20.679 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:20.690 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:20.694 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:20.705 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:20.708 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:20.714 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:20.720 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:22.384 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:56:22.393 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:22.398 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:22.411 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:22.422 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:22.427 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:22.435 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:22.438 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:22.444 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:22.448 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:23.365 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        bh1_0.id,
+        bh1_0.data_criacao,
+        bh1_0.nome_arquivo,
+        bh1_0.status,
+        bh1_0.tamanho_bytes,
+        bh1_0.tipo,
+        bh1_0.url_minio 
+    from
+        backup_history bh1_0 
+    order by
+        bh1_0.data_criacao desc
+2025-12-04 22:56:35.113 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        bh1_0.id,
+        bh1_0.data_criacao,
+        bh1_0.nome_arquivo,
+        bh1_0.status,
+        bh1_0.tamanho_bytes,
+        bh1_0.tipo,
+        bh1_0.url_minio 
+    from
+        backup_history bh1_0 
+    where
+        bh1_0.id=?
+2025-12-04 22:56:41.414 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:56:41.428 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:41.433 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:41.450 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:41.466 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:41.471 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:41.478 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:41.481 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:41.488 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:41.494 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:46.064 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:56:46.074 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:46.078 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:46.084 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:46.094 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:46.097 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:46.102 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:56:46.105 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:46.109 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:46.112 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:56:51.885 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        * 
+    from
+        dados_servidor 
+    where
+        nome_completo like ?
+2025-12-04 22:56:52.014 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        * 
+    from
+        dados_servidor 
+    where
+        nome_completo like ?
+2025-12-04 22:56:52.119 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        * 
+    from
+        dados_servidor 
+    where
+        nome_completo like ?
+2025-12-04 22:56:52.321 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        * 
+    from
+        dados_servidor 
+    where
+        nome_completo like ?
+2025-12-04 22:56:52.553 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        * 
+    from
+        dados_servidor 
+    where
+        nome_completo like ?
+2025-12-04 22:56:52.744 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        * 
+    from
+        dados_servidor 
+    where
+        nome_completo like ?
+2025-12-04 22:56:52.871 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        * 
+    from
+        dados_servidor 
+    where
+        nome_completo like ?
+2025-12-04 22:56:53.015 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        * 
+    from
+        dados_servidor 
+    where
+        nome_completo like ?
+2025-12-04 22:56:53.161 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        * 
+    from
+        dados_servidor 
+    where
+        nome_completo like ?
+2025-12-04 22:56:53.297 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        * 
+    from
+        dados_servidor 
+    where
+        nome_completo like ?
+2025-12-04 22:57:21.313 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.nome_completo=? 
+        and sp1_0.telefone=?
+2025-12-04 22:57:21.337 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        dados_servidor
+        (nome_completo, telefone) 
+    values
+        (?, ?) 
+    returning id_servidor
+2025-12-04 22:57:21.365 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        docs_anexo
+        (decisao_pref, mem_solicitacao_jur, memorando_pref, outros, parecer_juridico, req_dec_prefeito, req_pessoa) 
+    values
+        (?, ?, ?, ?, ?, ?, ?) 
+    returning id_docs
+2025-12-04 22:57:21.369 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        processo_digital
+        (data_abertura, data_fechamento, data_previsao, id_docs, estimativa, observacao_cancelamento, id_servidor, setor_destino, status) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?) 
+    returning id_processo
+2025-12-04 22:57:21.388 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    select
+        nextval('revinfo_seq')
+2025-12-04 22:57:21.401 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        revinfo
+        (revtstmp, rev) 
+    values
+        (?, ?)
+2025-12-04 22:57:21.404 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        dados_servidor_aud
+        (revtype, nome_completo, telefone, rev, id_servidor) 
+    values
+        (?, ?, ?, ?, ?)
+2025-12-04 22:57:21.409 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        docs_anexo_aud
+        (revtype, decisao_pref, mem_solicitacao_jur, memorando_pref, outros, parecer_juridico, req_dec_prefeito, req_pessoa, rev, id_docs) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-12-04 22:57:21.415 [http-nio-8080-exec-4] DEBUG org.hibernate.SQL - 
+    insert 
+    into
+        processo_digital_aud
+        (revtype, data_abertura, data_fechamento, data_previsao, id_docs, estimativa, observacao_cancelamento, id_servidor, setor_destino, status, rev, id_processo) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2025-12-04 22:57:21.450 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:57:21.458 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:21.461 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:21.468 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:21.477 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:21.479 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:21.486 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:21.504 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:21.525 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:21.540 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:21.555 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:21.564 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:35.529 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0 
+    where
+        pd1_0.id_processo=?
+2025-12-04 22:57:35.539 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:35.547 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:40.226 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:57:40.243 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:40.250 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:40.264 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:40.278 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:40.284 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:40.294 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:40.299 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:40.306 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:40.313 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:40.319 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:40.323 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:42.818 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:57:42.824 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:42.828 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:42.834 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:42.840 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:42.843 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:42.848 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:42.851 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:42.854 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:42.859 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:42.863 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:42.866 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:47.996 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:57:48.005 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:48.009 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:48.017 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:48.027 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:48.031 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:48.036 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:48.040 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:48.043 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:48.048 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:48.054 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:57:48.057 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:57:53.725 [http-nio-8080-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1937eae2 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-04 22:57:53.725 [http-nio-8080-exec-4] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@5c5f0edc (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-04 22:57:53.727 [http-nio-8080-exec-4] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@3e944336 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-04 22:57:53.727 [http-nio-8080-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@26ee3b1e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-04 22:57:53.728 [http-nio-8080-exec-4] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@7362cc20 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-04 22:57:53.728 [http-nio-8080-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@a8a5db (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-04 22:57:53.728 [http-nio-8080-exec-4] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@454b015e (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-04 22:57:53.728 [http-nio-8080-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@380181d6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-04 22:57:53.730 [http-nio-8080-exec-4] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@22fab971 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-04 22:57:53.730 [http-nio-8080-exec-7] WARN  com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2951d720 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2025-12-04 22:58:23.732 [http-nio-8080-exec-7] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08001
+2025-12-04 22:58:23.732 [http-nio-8080-exec-7] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - HikariPool-1 - Connection is not available, request timed out after 30010ms (total=0, active=0, idle=0, waiting=4)
+2025-12-04 22:58:23.732 [http-nio-8080-exec-7] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Connection to localhost:5433 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2025-12-04 22:58:23.748 [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction] with root cause
+java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:260)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:121)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:140)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+	at org.postgresql.Driver.makeConnection(Driver.java:446)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:724)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:703)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-12-04 22:58:29.064 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        bh1_0.id,
+        bh1_0.data_criacao,
+        bh1_0.nome_arquivo,
+        bh1_0.status,
+        bh1_0.tamanho_bytes,
+        bh1_0.tipo,
+        bh1_0.url_minio 
+    from
+        backup_history bh1_0 
+    order by
+        bh1_0.data_criacao desc
+2025-12-04 22:58:29.081 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:58:29.090 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.096 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.106 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.112 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.114 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.118 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.121 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:58:29.121 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.125 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.127 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.129 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.130 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.131 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.133 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.134 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.138 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.141 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.144 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:58:29.151 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.153 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.154 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.157 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.160 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.165 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.167 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.171 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.172 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.172 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:58:29.174 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.174 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.178 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.181 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.184 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.187 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.190 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.190 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:58:29.190 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.195 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.197 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.198 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.202 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.202 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.202 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.213 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.215 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.215 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.220 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.222 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.225 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:58:29.227 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.231 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.235 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.235 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        bh1_0.id,
+        bh1_0.data_criacao,
+        bh1_0.nome_arquivo,
+        bh1_0.status,
+        bh1_0.tamanho_bytes,
+        bh1_0.tipo,
+        bh1_0.url_minio 
+    from
+        backup_history bh1_0 
+    order by
+        bh1_0.data_criacao desc
+2025-12-04 22:58:29.235 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.238 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.239 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.242 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.244 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.246 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.249 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.250 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.256 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        bh1_0.id,
+        bh1_0.data_criacao,
+        bh1_0.nome_arquivo,
+        bh1_0.status,
+        bh1_0.tamanho_bytes,
+        bh1_0.tipo,
+        bh1_0.url_minio 
+    from
+        backup_history bh1_0 
+    order by
+        bh1_0.data_criacao desc
+2025-12-04 22:58:29.258 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.258 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.262 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.265 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.270 [http-nio-8080-exec-7] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.272 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.275 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.280 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.285 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:58:29.286 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.292 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.294 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.296 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.297 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.300 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.306 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.309 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.314 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.317 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.319 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.323 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.326 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.329 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.337 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:58:29.342 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.344 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.351 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.357 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.359 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.367 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.369 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.372 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.374 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.379 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.382 [http-nio-8080-exec-8] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.392 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:58:29.400 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.402 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.406 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.415 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.416 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.420 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.421 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.424 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.428 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.431 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.434 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.447 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:58:29.455 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.457 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.464 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.470 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.471 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.476 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.478 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.481 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.484 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.487 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.490 [http-nio-8080-exec-10] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.498 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:58:29.504 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.506 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.510 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.514 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.518 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.520 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.523 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.527 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.532 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:29.535 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:29.538 [http-nio-8080-exec-9] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:33.165 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        pd1_0.id_processo,
+        pd1_0.data_abertura,
+        pd1_0.data_fechamento,
+        pd1_0.data_previsao,
+        pd1_0.id_docs,
+        pd1_0.estimativa,
+        pd1_0.observacao_cancelamento,
+        pd1_0.id_servidor,
+        pd1_0.setor_destino,
+        pd1_0.status 
+    from
+        processo_digital pd1_0
+2025-12-04 22:58:33.178 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:33.185 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:33.191 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:33.201 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:33.209 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:33.223 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:33.228 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:33.235 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:33.244 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:33.250 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        sp1_0.id_servidor,
+        sp1_0.nome_completo,
+        sp1_0.telefone 
+    from
+        dados_servidor sp1_0 
+    where
+        sp1_0.id_servidor=?
+2025-12-04 22:58:33.252 [http-nio-8080-exec-5] DEBUG org.hibernate.SQL - 
+    select
+        da1_0.id_docs,
+        da1_0.decisao_pref,
+        da1_0.mem_solicitacao_jur,
+        da1_0.memorando_pref,
+        da1_0.outros,
+        da1_0.parecer_juridico,
+        da1_0.req_dec_prefeito,
+        da1_0.req_pessoa 
+    from
+        docs_anexo da1_0 
+    where
+        da1_0.id_docs=?
+2025-12-04 22:58:35.437 [http-nio-8080-exec-6] DEBUG org.hibernate.SQL - 
+    select
+        bh1_0.id,
+        bh1_0.data_criacao,
+        bh1_0.nome_arquivo,
+        bh1_0.status,
+        bh1_0.tamanho_bytes,
+        bh1_0.tipo,
+        bh1_0.url_minio 
+    from
+        backup_history bh1_0 
+    order by
+        bh1_0.data_criacao desc
+2025-12-04 22:58:49.746 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-04 22:58:49.748 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-12-04 22:58:49.752 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
